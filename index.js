@@ -3,7 +3,7 @@ import express from 'express'
 const app = express()
 const PORT = 3000
 
-app.get('/test', (req, res) => {
+app.get('/test', async (req, res) => {
     let counter = 0;
     while(counter < 50_000_000) {counter++}
     res.send(`Counter ${counter}`)

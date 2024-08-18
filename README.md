@@ -1,6 +1,10 @@
-### start the app
+### start the app start or the cluster
 ```bash
 node index
+```
+OR
+```bash
+node cluster
 ```
 
 ### perform loadtest
